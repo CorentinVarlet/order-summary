@@ -1,16 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- displays site properly based on user's device -->
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
-</head>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-<body>
-  <div id="app"></div>
-  <script type="module" src="/main.js"></script>
-</body>
+    <title>Frontend Mentor | Order summary card</title>
 
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class= "page">
+      <img src="images/illustration-hero.svg" alt="illustration héro" />
+      <h1>Order Summary</h1>
+      <p>
+        You can listen to millions of songs,<br />
+        audiobooks, and podcastson any device, <br />
+        anywhere you like!
+      </p>
+      <div class="cadre">
+        <div class="gauche">
+        <img src="./images/icon-music.svg" alt="icon music" />
+        <div class="text">
+          <h3>Annual Plan</h3>
+          <div>$59.99/year</div>
+        </div></div>
+        <a class="change" href="">change</a>
+      </div>
+      <br><button class="payment">Proceed to payment</button><br>
+      <br><a class="cancel" href="">Cancel Order</a>
+    </div>
+  </body>
 </html>
